@@ -19,7 +19,7 @@ public class MessagingService extends FirebaseMessagingService{
         PendingIntent pi =PendingIntent.getActivity(this,0,new Intent(this,MainActivity.class),0);
         Notification notification = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ic_stat_name)
-                .setContentTitle("IIITA")
+                .setContentTitle("IIITL")
                 .setContentText(message)
                 .setContentIntent(pi)
                 .setAutoCancel(true)
